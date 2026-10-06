@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5">
+<meta name="theme-color" content="#f7f7f8">
+<title>История — поиск</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <input id="q" type="search" inputmode="search" enterkeyhint="search"
+         autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+         placeholder="Введите имя, фамилию, событие или дату...">
+</header>
+
+<main>
+  <div id="empty" class="empty">
+    <div class="empty-title">Начни вводить запрос</div>
+    <div class="empty-sub">Имя · фамилия · событие · дата</div>
+  </div>
+  <div id="count" class="count" hidden></div>
+  <div id="results"></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
